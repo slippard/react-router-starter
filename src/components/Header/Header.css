@@ -10,15 +10,11 @@ header {
   background: red;
 }
 
-nav {
+.nav-list {
+  background: green;
 }
 
-ul {
-  list-style: none;
-}
-
-.headerLi {
-  color: blue;
+.nav-item {
   display: inline-block;
   padding: 10px;
   background: #333;

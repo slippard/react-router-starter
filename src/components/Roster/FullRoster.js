@@ -1,5 +1,5 @@
 import React from "react";
-import PlayerAPI from "../api";
+import PlayerAPI from "../../api";
 import { Link } from "react-router-dom";
 
 const FullRoster = () => (

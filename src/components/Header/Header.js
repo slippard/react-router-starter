@@ -5,18 +5,29 @@ import { Link } from "react-router-dom";
 // The Header creates links that can be used to navigate
 // between routes.
 
+const linkStyle = {
+  textDecoration: "none",
+  color: "#888"
+};
+
 const Header = () => (
   <header>
     <nav>
-      <ul>
-        <li className="headerLi">
-          <Link to="/">Home</Link>
+      <ul className="nav-list">
+        <li className="nav-item">
+          <Link to="/" style={linkStyle}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/roster">Roster</Link>
+          <Link to="/roster" style={linkStyle}>
+            Roster
+          </Link>
         </li>
         <li>
-          <Link to="/schedule">Schedule</Link>
+          <Link to="/schedule" style={linkStyle}>
+            Schedule
+          </Link>
         </li>
       </ul>
     </nav>

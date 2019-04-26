@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
-import Roster from "./Roster";
+import Roster from "./Roster/Roster";
 import Schedule from "./Schedule";
 
 const NoMatch = ({ location }) => (
